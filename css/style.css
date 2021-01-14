@@ -19,3 +19,7 @@ img {
     width: 150px;
     float: left;
 }
+
+ol {
+    list-style: lower-roman;
+}

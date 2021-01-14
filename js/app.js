@@ -7,7 +7,7 @@ alert('Hello ' + (userName) + ' welcome to my about me page, lets see if you rea
 
 //wrtire 5 questions: they must accept yes or no in any case
 
-var answerOne = prompt('Am I from Jamaica?').toLocaleLowerCase();
+var answerOne = prompt('Am I from Jamaica?');
 answerOne = answerOne.toLocaleLowerCase();
 
 if (answerOne === 'yes' || answerOne === 'y') {

@@ -1,7 +1,7 @@
 'use strict';
 
-// get username and offer greeting 
-var userName = prompt('Hello, what\'s your name?')
+// get username and offer greeting
+var userName = prompt('Hello, what\'s your name?');
 alert('Hello ' + (userName) + ' welcome to my about me page, lets see if you read my bio.');
 
 

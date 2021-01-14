@@ -1,7 +1,21 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: rgb(193, 220, 230);
+}
+
 body {
-    background-color: antiquewhite;
+    background-color: lightskyblue;
     width: 960px;
     margin: auto;
-    border: 1px solid black;
-    
+}
+
+img {
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    float: left;
 }

@@ -7,53 +7,53 @@ alert('Hello ' + (userName) + ' welcome to my about me page, lets see if you rea
 
 //wrtire 5 questions: they must accept yes or no in any case
 
-var questionOne = prompt('Am I from Jamaica?').toLocaleLowerCase();
-questionOne = questionOne.toLocaleLowerCase();
+var answerOne = prompt('Am I from Jamaica?').toLocaleLowerCase();
+answerOne = answerOne.toLocaleLowerCase();
 
-if(questionOne === 'yes' || questionOne === 'y') {
-  // console.log('that is correct');
-  alert('that is correct');
-} else{
-  alert('I have great vibe of course I\'m Jamaica.');
-}
-
-var questionTwo = prompt('Do you like coffee?');
-questionTwo = questionTwo.toLocaleLowerCase();
-
-if(questionTwo === 'yes' || questionTwo === 'y') {
-  // console.log('That is correct I do like coffee');
-  alert('That is correct I do like coffee');
-} else{
-  alert('You\'ve commited a great SIN!');
-}
-
-var questionThree = prompt('Did I go to college?');
-questionThree = questionThree.toLocaleLowerCase();
-
-if(questionThree === 'yes' || questionThree === 'y') {
-  // console.log('that is correct');
-  alert('That is correct I went to the University of Marland');
-} else{
-  alert('You take that back I\'m SMART!');
-}
-
-var questionFour = prompt('Is swimming a hobby of mine?');
-questionFour = questionFour.toLocaleLowerCase();
-
-if(questionFour === 'yes' || questionFour ==='y') {
-  // console.log ('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
-  alert('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
+if (answerOne === 'yes' || answerOne === 'y') {
+    // console.log('that is correct');
+    alert('that is correct');
 } else {
-  alert('seriously I grew up on an island I was born swimming!');
+    alert('I have great vibe of course I\'m Jamaica.');
 }
 
-var questionFive = prompt('Was I in the Amry?');
-questionFive = questionFive.toLocaleLowerCase();
+var answerTwo = prompt('Do you like coffee?');
+answerTwo = answerTwo.toLocaleLowerCase();
 
-if(questionFive === 'yes' || questionFive === 'y'){
-  alert('That is correct, I served 8 looong years!');
-} else{
-  alert('you better fix yourself I\'m an American Hero!');
+if (answerTwo === 'yes' || answerTwo === 'y') {
+    // console.log('That is correct I do like coffee');
+    alert('That is correct I do like coffee');
+} else {
+    alert('You\'ve commited a great SIN!');
 }
 
-alert('Thank you ' + (userName) + ' for visiting my page and learning about me, don\'t be a stranger. have a great day.');
+var answerThree = prompt('Did I go to college?');
+answerThree = answerThree.toLocaleLowerCase();
+
+if (answerThree === 'yes' || answerThree === 'y') {
+    // console.log('that is correct');
+    alert('That is correct I went to the University of Marland');
+} else {
+    alert('You take that back I\'m SMART!');
+}
+
+var answerFour = prompt('Is swimming a hobby of mine?');
+answerFour = answerFour.toLocaleLowerCase();
+
+if (answerFour === 'yes' || answerFour === 'y') {
+    // console.log ('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
+    alert('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
+} else {
+    alert('seriously I grew up on an island I was born swimming!');
+}
+
+var answerFive = prompt('Was I in the Amry?');
+answerFive = answerFive.toLocaleLowerCase();
+
+if (answerFive === 'yes' || answerFive === 'y') {
+    alert('That is correct, I served 8 looong years!');
+} else {
+    alert('you better fix yourself I\'m an American Hero!');
+}
+
+alert('Thank you ' + (userName) + ' for visiting my page and learning about me, have a great day!');

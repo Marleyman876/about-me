@@ -16,5 +16,6 @@ I built an app with a direct and powerful purpose. My app does all of the things
 
 ### Reflections and Comments and Collabs
 
+This pagge is my about me webpage, its currently "In the works" and more conrent will be added soon 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned

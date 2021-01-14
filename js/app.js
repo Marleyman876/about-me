@@ -31,7 +31,7 @@ var answerThree = prompt('Did I go to college?');
 answerThree = answerThree.toLocaleLowerCase();
 
 if (answerThree === 'yes' || answerThree === 'y') {
-  // console.log('that is correct');
+  // console.log('That is correct, I went to the university of Maryland');
   alert('That is correct I went to the University of Marland');
 } else {
   alert('You take that back I\'m SMART!');
@@ -41,16 +41,17 @@ var answerFour = prompt('Is swimming a hobby of mine?');
 answerFour = answerFour.toLocaleLowerCase();
 
 if (answerFour === 'yes' || answerFour === 'y') {
-  // console.log ('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
-  alert('That is correct I grew up on an island not only do i swim I\'m also Scuba certified, #aquaman');
+  // console.log ('That is correct I grew up on an island not only do I swim I\'m also Scuba certified, #aquaman');
+  alert('That is correct I grew up on an island not only do I swim I\'m also Scuba certified, #aquaman');
 } else {
-  alert('seriously I grew up on an island I was born swimming!');
+  alert('Seriously I grew up on an island I was born swimming!');
 }
 
 var answerFive = prompt('Was I in the Amry?');
 answerFive = answerFive.toLocaleLowerCase();
 
 if (answerFive === 'yes' || answerFive === 'y') {
+  // console.log ('That is correct, I served 8 looong years!');
   alert('That is correct, I served 8 looong years!');
 } else {
   alert('you better fix yourself I\'m an American Hero!');

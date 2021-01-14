@@ -3,26 +3,38 @@ h1 {
     padding: 10px;
     font-size: 80px;
     font-weight: bold;
-    background-color: rgb(193, 220, 230);
+    background-color: rgb(29, 84, 104);
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: rgb(25, 77, 109);
     width: 960px;
-    margin: auto;
+    margin:auto;
 }
-
+main{
+    margin-top: 24%;
+    border-radius: 1mm;
+        
+}
 img {
     /* border: 1px solid #ddd; */
     border-radius: 10px;
-    margin-top: auto;
+    margin-top: 1%;
+    margin-left: 50%;
+    margin-right: 50%;
     padding: 5px;
     width: 150px;
-    float: left;
+    float:left;
+    
 }
 
-ol {
-    list-style: upper-alpha;
+ul {
+    list-style: square;
     margin: auto;
-    list-style-position: inside;
+    list-style-position: outside;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+
 }

@@ -57,4 +57,6 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('you better fix yourself I\'m an American Hero!');
 }
 
-alert('Thank you ' + (userName) + ' for visiting my page and learning about me, have a great day!');
+alert(`Goodbye, ${userName} thank you for visitng my page and learning about me, I hope you have a great day.`);
+
+// alert('Thank you ' + (userName) + ' for visiting my page and learning about me, have a great day!');

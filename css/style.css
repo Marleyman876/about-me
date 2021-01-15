@@ -12,9 +12,9 @@ body {
     margin:auto;
 }
 main{
-    margin-top: 24%;
+    margin-top: 30px;
     border-radius: 1mm;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
         
 }
 img {
@@ -31,7 +31,7 @@ img {
 
 ul {
     list-style: square;
-    margin: auto;
+    margin-top: 5px;
     list-style-position: outside;
     margin-bottom: 10px;
 }
@@ -39,4 +39,7 @@ h2{
     font-size: 20px;
     font-weight: bold;
 
+}
+p{
+    margin-bottom: 15px;
 }

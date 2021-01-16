@@ -38,6 +38,10 @@ ul {
     list-style-position: outside;
     margin-bottom: 10px;
 }
+ol {
+    margin-top: 10px;
+    list-style: upper-roman;
+}
 h2{
     font-size: 20px;
     font-weight: bold;

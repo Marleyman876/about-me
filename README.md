@@ -22,5 +22,7 @@ This page is my about me webpage, its currently "In the works" and more conrent 
 
 * I added the guessing game question of what is the lonliest number and will also add some arrays tyo allow the user to have multiple possibilities.
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* I also added a score for the question so that he user can know how many questions they got correct form the 7 questions.
+
+<!-- * Consider including the answers to your daily journal and submission questions here
+* This is also a good place to reflect on the tools and resources used and learned -->

@@ -63,12 +63,6 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('you better fix yourself I\'m an American Hero!');
 }
 
-
-
-
-// alert('Thank you ' + (userName) + ' for visiting my page and learning about me, have a great day!');
-
-
 // question 6
 
 
@@ -101,7 +95,7 @@ var answerCorrectly = false;
 var count = 6;
 
 for ( i = 0; i < count; i++) {
-  var party = prompt('what is my favorite party to attend');
+  var party = prompt('what is my favorite event to attend?');
 
   for (var j = 0; j < favoriteEvent.length; j++) {
     if (party === favoriteEvent[j]) {

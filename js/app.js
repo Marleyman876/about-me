@@ -2,12 +2,9 @@
 
 var score = 0;
 
-// get username and offer greeting
 var userName = prompt('Hello, what\'s your name?');
 alert('Hello ' + (userName) + ' welcome to my about me page, lets see if you read my bio.');
 
-
-// //wrtire 5 questions: they must accept yes or no in any case
 
 var answerOne = prompt('Am I from Jamaica?');
 answerOne = answerOne.toLocaleLowerCase();
@@ -63,8 +60,6 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('you better fix yourself I\'m an American Hero!');
 }
 
-// question 6
-
 
 var maxCount = 4;
 var number = 52;
@@ -85,8 +80,6 @@ for (var i = 0; i < maxCount; i++) {
   }
 
 }
-
-// question 7
 
 var favoriteEvent = ['dancehall', 'mass', 'concert', 'play', 'going to the movies'];
 
@@ -113,6 +106,5 @@ if (i === count || answerCorrectly) {
   alert(`My favortie events are ${favoriteEvent}`);
 
 }
-
 
 alert(`Goodbye, ${userName} thank you for visitng my page and learning about me, I hope you have a great day. Your score for today is ${score}`);

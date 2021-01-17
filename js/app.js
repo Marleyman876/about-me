@@ -73,9 +73,9 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 
 var maxCount = 4;
-var number = 1;
+var number = 52;
 for (var i = 0; i < maxCount; i++) {
-  var questionSixx = parseInt(prompt('what is the lonliest number?'));
+  var questionSixx = parseInt(prompt('How many weeks are in a calendar year?'));
   if (questionSixx === number) {
     alert('your are correct');
     score ++;
@@ -107,6 +107,7 @@ for ( i = 0; i < count; i++) {
     if (party === favoriteEvent[j]) {
       alert(`you are correct, ${favoriteEvent[j]} is my favourite event`);
       answerCorrectly = true;
+      score++;
     }
   }
   if (answerCorrectly) {

@@ -81,7 +81,7 @@ for (var i = 0; i < maxCount; i++) {
 
 }
 
-var favoriteEvent = ['dancehall', 'mass', 'concert', 'play', 'going to the movies'];
+var favoriteEvent = ['dancehall', 'carnival', 'reggae concert', 'going to dinner', 'going to the movies'];
 
 var answerCorrectly = false;
 

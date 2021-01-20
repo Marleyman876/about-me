@@ -87,7 +87,8 @@ var answerCorrectly = false;
 
 var count = 6;
 
-for ( i = 0; i < count; i++) {
+for ( i = 0; i < count; i++)
+{
   var party = prompt('what is my favorite event to attend?');
 
   for (var j = 0; j < favoriteEvent.length; j++) {
@@ -108,3 +109,4 @@ if (i === count || answerCorrectly) {
 }
 
 alert(`Goodbye, ${userName} thank you for visitng my page and learning about me, I hope you have a great day. Your score for today is ${score}`);
+

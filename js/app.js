@@ -120,9 +120,10 @@ function questionSeven() {
         alert(`you are correct, ${favoriteEvent[j]} is my favourite event`);
         answerCorrectly = true;
         score++;
+
       }
     }
-    if (answerCorrectly) {
+    if (answerCorrectly === true) {
       break;
     }
 
@@ -145,6 +146,7 @@ questionFour();
 questionFive();
 
 questionSix();
+
 
 questionSeven();
 

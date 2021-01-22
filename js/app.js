@@ -136,18 +136,11 @@ function questionSeven() {
 }
 
 questionOne();
-
 questionTwo();
-
 questionThree();
-
 questionFour();
-
 questionFive();
-
 questionSix();
-
-
 questionSeven();
 
 

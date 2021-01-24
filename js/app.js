@@ -7,7 +7,7 @@ alert('Hello ' + (userName) + ' welcome to my about me page, lets see if you rea
 
 function questionOne() {
   var answerOne = prompt('Am I from Jamaica?');
-  answerOne = answerOne.toLocaleLowerCase();
+  answerOne = answerOne.toLowerCase();
 
   if (answerOne === 'yes' || answerOne === 'y') {
     // console.log('that is correct');
@@ -21,15 +21,15 @@ function questionOne() {
 
 
 function questionTwo() {
-  var answerTwo = prompt('Do you like coffee?');
-  answerTwo = answerTwo.toLocaleLowerCase();
+  var answerTwo = prompt('Do I like coffee?');
+  answerTwo = answerTwo.toLowerCase();
 
   if (answerTwo === 'yes' || answerTwo === 'y') {
     // console.log('That is correct I do like coffee');
     alert('That is correct I do like coffee');
     score++;
   } else {
-    alert('You\'ve commited a great SIN!');
+    alert('You\'ve committed a great SIN!');
   }
 
 }
@@ -37,11 +37,11 @@ function questionTwo() {
 
 function questionThree() {
   var answerThree = prompt('Did I go to college?');
-  answerThree = answerThree.toLocaleLowerCase();
+  answerThree = answerThree.toLowerCase();
 
   if (answerThree === 'yes' || answerThree === 'y') {
     // console.log('That is correct, I went to the university of Maryland');
-    alert('That is correct I went to the University of Marland');
+    alert('That is correct I went to the University of Maryland');
     score++;
   } else {
     alert('You take that back I\'m SMART!');
@@ -52,7 +52,7 @@ function questionThree() {
 
 function questionFour() {
   var answerFour = prompt('Is swimming a hobby of mine?');
-  answerFour = answerFour.toLocaleLowerCase();
+  answerFour = answerFour.toLowerCase();
 
   if (answerFour === 'yes' || answerFour === 'y') {
     // console.log ('That is correct I grew up on an island not only do I swim I\'m also Scuba certified, #aquaman');
@@ -66,7 +66,7 @@ function questionFour() {
 
 
 function questionFive() {
-  var answerFive = prompt('Was I in the Amry?');
+  var answerFive = prompt('Was I in the Army?');
   answerFive = answerFive.toLocaleLowerCase();
 
   if (answerFive === 'yes' || answerFive === 'y') {
@@ -113,11 +113,11 @@ var count = 6;
 function questionSeven() {
 
   for (var i = 0; i < count; i++) {
-    var party = prompt('what is my favorite event to attend?');
+    var party = prompt('Name one of my favorite event to attend?');
 
     for (var j = 0; j < favoriteEvent.length; j++) {
       if (party === favoriteEvent[j]) {
-        alert(`you are correct, ${favoriteEvent[j]} is my favourite event`);
+        alert(`you are correct, ${favoriteEvent[j]} is my favorite event`);
         answerCorrectly = true;
         score++;
 
@@ -130,7 +130,7 @@ function questionSeven() {
   }
 
   if (i === count || answerCorrectly) {
-    alert(`My favortie events are ${favoriteEvent}`);
+    alert(`My favorite events are ${favoriteEvent}`);
   }
 
 }
@@ -144,5 +144,5 @@ questionSix();
 questionSeven();
 
 
-alert(`Goodbye, ${userName} thank you for visitng my page and learning about me, I hope you have a great day. Your score for today is ${score}`);
+alert(`Goodbye, ${userName} thank you for visiting my page and learning about me, I hope you have a great day. Your score for today is ${score}`);
 
